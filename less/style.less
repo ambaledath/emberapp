@@ -1,0 +1,76 @@
+@import 'reset.less';
+@import 'colors.less';
+@import 'fonts.less';
+
+body{
+    font: 400 13px/1.2 'Lato', Arial, sans-serif;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+	font-size: 22px;
+	font-weight: 300;
+	padding-bottom: 15px;
+}
+
+a{
+	color: #5f97f8;
+}
+
+p{
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+section{
+	min-height: 300px;
+	padding: 20px 0;
+}
+
+header{
+	padding: 20px 0;
+	background: #5f97f8;
+}
+
+footer{
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid #ccc;
+}
+
+.logo{
+	color: @white;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+nav{
+	float: right;
+	ul{
+		li{
+			display: inline-block;
+			margin-left: 10px;
+			a{
+				display: block;
+				padding: 5px 10px;
+				font-size: 16px;
+				color: @white;
+				text-decoration: none;
+				border-radius: 2px;
+				&:hover, &.active{
+					color: #5f97f8;
+					background: @white;
+				}
+			}
+		}
+	}
+}
