@@ -1,2 +1,3 @@
 # emberapp
-A simple basic Ember App
+A Simple Basic Ember App
+
